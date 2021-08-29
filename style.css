@@ -713,7 +713,7 @@ body {
 		margin-bottom: 50px;
 		text-indent: 0px;
 		text-align: justify;	
-		height:1050px; 
+		height:950px; 
 	}
 	
 	.clearfix::after {
@@ -724,19 +724,19 @@ body {
 	
 	.p_inicial{
 		font-family: Arial;
-		font-size: 15px;
-		margin-right:50px;
+		font-size: 16px;
+		margin-right:40px;
 		margin-top: 70px;
-		margin-left:50px;
+		margin-left:40px;
 		text-indent: 0px;
 		text-align: justify;
 	}
 	
 	.p_inicial_v1{
 		font-family: Arial;
-		font-size: 15px;
-		margin-right:50px;
-		margin-left:50px;
+		font-size: 16px;
+		margin-right:40px;
+		margin-left:40px;
 		text-indent: 0px;
 		text-align: justify;
 	}
