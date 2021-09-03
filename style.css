@@ -16,7 +16,7 @@ body {
 
 
 .div_top{
-  background-image: url('background.png');
+  background-image: url('/mywebpage/background.png');
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-size: 100% 100%;
@@ -236,7 +236,7 @@ body {
 	}
 	
 	.div_es {
-		background-image: url('es.jpg');
+		background-image: url('/mywebpage/es.jpg');
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-size: 100% 100%;
@@ -346,7 +346,7 @@ body {
 	}
 	
 	.div_es {
-		background-image: url('es.jpg');
+		background-image: url('/mywebpage/es.jpg');
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-size: 100% 100%;
@@ -459,7 +459,7 @@ body {
 	}
 	
 	.div_es {
-		background-image: url('es.jpg');
+		background-image: url('/mywebpage/es.jpg');
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-size: 100% 100%;
@@ -572,7 +572,7 @@ body {
 	}
 	
 	.div_es {
-		background-image: url('es.jpg');
+		background-image: url('/mywebpage/es.jpg');
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-size: 100% 100%;
@@ -685,7 +685,7 @@ body {
 	}
 	
 	.div_es {
-		background-image: url('es.jpg');
+		background-image: url('/mywebpage/es.jpg');
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-size: 100% 100%;
@@ -799,7 +799,7 @@ body {
 	}
 	
 	.div_es {
-		background-image: url('es.jpg');
+		background-image: url('/mywebpage/es.jpg');
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-size: 100% 100%;
@@ -859,7 +859,7 @@ body {
 	}
 	
 	.div_top{
-  background-image: url('espaco_2.jpg');
+  background-image: url('/mywebpage/espaco_2.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-size: 100% 100%;
