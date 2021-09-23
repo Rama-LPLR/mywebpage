@@ -699,11 +699,11 @@ body {
 		margin-bottom: 50px;
 		text-indent: 50px;
 		text-align: justify;	
-		height:1000px; 
+		height:950px; 
 	}
 	
 	.div_top h1{
-		font-size: 23px;
+		font-size: 21px;
 	}
 	
 	@keyframes typing {
