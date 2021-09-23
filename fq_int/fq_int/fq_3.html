@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>De Bohr ao spin</title>
+		<link rel="stylesheet" href="https://latex.now.sh/style.css">
+		<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+		
+	</head>
+	
+	<style>
+	div {
+		border: 3px outset #879192;
+		background-color: #a7b2b3;		
+		text-indent: 50px;
+		text-align: justify;		
+	}
+	
+	body {
+        background-color:  #ffffff ;
+    }
+	
+	.clearfix::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+	
+	.p1{
+		text-align: center;
+	}
+	
+	.div_left{
+		width: 600px; 
+		float:left; 
+		height:200px; 
+		background:gray; 
+		margin:70px
+	}
+	.div_right{
+		width: 600px; 
+		float:left; 
+		height:200px; 
+		background:yellow; 
+		margin:70px
+	}
+	
+	
+	
+	</style>
+	
+	<body id="top">
+		<header>
+		<h1>Física Quântica</h1>
+		</header>
+		<p class="author">Leonardo Rama <br>2021</p>
+		<h2>Conteúdo</h2>
+		<ol>
+			<li><a href="#msommerferld"> Modelo de Sommerfeld</a></li>
+			<!-- <li><a href="#ef fotoele"> Efeito Fotoelétrico</a></li>
+			<li><a href="#ef compton"> Efeito Compton</a></li> -->
+			
+			
+			
+		</ol>
+		
+		
+		
+		<article>
+			<section id="msommerferld">
+				<h2>Modelo de Sommerfeld</h2>
+				<p>
+				Wilson e Sommerfeld enunciaram um conjunto de regras para a quantização de qualquer sistema físico para o qual as coordenadas fossem funções periódicas no tempo.
+				Estas regras incluem a quantização de Borh e Plank. 
+				Podem ser enunciadas da seguinte forma:
+				</p>
+				<p>
+				Em qualquer sistema físico na qual as coordenadas são funções periódicas no tempo, existe uma condição quâmtica para cada coordenada. Estas condições quânticas são dadas por:
+				$$\oint p_{q}d_{q}=n_{q}h$$
+				onde \(q\) é uma das coordenadas, \(p_{q}\) o seu momento associado a essa coordenada, \(n_{q}\) o seu número quântico que toma apenas valoes inteiros.
+				</p>
+				<p>
+				Mais detalhes podem ser encontrados na bibliografia.
+				É possivel obter a quantização do momento angular de Borh através da expressão anterior. Para isso basta considerar que \(L=mvr\) e substituir \(p=mv\),e \(d_{q}=rd_{\theta}\).
+				$$\oint mvd_{q}=n_{q}h \Leftrightarrow \oint mvrd_{\theta}=nh \Leftrightarrow \oint Ld_{\theta}=nh$$
+				Resolvendo  o integral em coordenadas polares obtemos a quantização de Bohr:
+				$$ \int_{0}^{2\pi} Ld_{\theta}=2\pi L \Leftrightarrow 2\pi L=nh \Leftrightarrow L=n\hbar $$
+				</p>
+				<p>
+				Com o objetivo de resolver a estrutura fina do átomo de Hidrogénio resolveu-se a condição de estabilidade, \(F_{c}=F_{e}\) para órbitas elipticas. Os resultados obtidos foram:
+				$$\oint Ld_{\theta}=(l+1)h$$
+				com \(l=0,1,2...\)
+				$$\oint pd_{r}=kh$$
+				com \(k=0\) órbitas circulares e \(k=1,2,3...\) órbitas elipticas.
+				</p>
+				<p>A expressão para a energia é igual à expressão determinada por Bohr:
+				$$E=-\frac{R_{\infty}}{n^{2}}hc\frac{1}{1+\frac{m}{m'}}Z^{2}=-\frac{E_{1}}{n^{2}}$$
+				</p>
+				
+				<p>...</p>
+				<p><b>Em atualização</b><p>
+				<p>...</p>
+		
+			</section>
+			<section id="bibliografia">
+				<h2>Bibliografia</h2>
+				Eisberg, R., & Resnick, R. (1979). Física Quântica: Átomos, Moléculas, Sólidos, Núcleos e Partículas, 21a edição. Editora Campus.
+			</section>
+	
+	
+	
+	
+		</article>
+	
+	</body>
+	
+	
+	
+</html>
