@@ -645,6 +645,7 @@ body {
 		margin-bottom: 15px;
 	}
 	
+	
 	.div_es {
 		background-image: url('es_exp_2.jpg');
 		background-repeat: no-repeat;
@@ -721,9 +722,9 @@ body {
 		display: table;
 	}
 	
-	.p_inicial{
+	..p_inicial{
 		font-family: "Segoe UI";
-		font-size: 15px;
+		font-size: 16px;
 		margin-top: 0px;
 		margin-right:10px;
 		margin-left:10px;
@@ -733,7 +734,7 @@ body {
 	
 	.p_inicial_v1{
 		font-family: "Segoe UI";
-		font-size: 15px;
+		font-size: 16px;
 		margin-right:10px;
 		margin-left:10px;
 		text-indent: 0px;
